@@ -8,6 +8,7 @@
             Console.WriteLine("What is your name?");
             string a = Console.ReadLine();
             Console.WriteLine(a);
+            Console.WriteLine("OK");
 
         }
     }
