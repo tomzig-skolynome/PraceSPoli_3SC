@@ -9,6 +9,7 @@
             string a = Console.ReadLine();
             Console.WriteLine(a);
             Console.WriteLine("OK");
+            Console.WriteLine("NOK");
 
         }
     }
