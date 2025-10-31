@@ -29,10 +29,42 @@
             Console.WriteLine("Kolik budes zadavat cisel?");
             velikostPole = int.Parse(Console.ReadLine());
             int[] cisla = new int[velikostPole];
+
+            string[] jmenaStudentu = new string[10];
+            jmenaStudentu[0] = "Tomas";
+            jmenaStudentu[1] = "Alena";
+            jmenaStudentu[2] = "Tomas";
+            jmenaStudentu[3] = "Jan";
+            jmenaStudentu[4] = "Jan";
+            //jmenaStudentu[10] = 
+
+            int indexCounter = 0;
+            while (indexCounter < jmenaStudentu.Length)
+            {
+                string mostFrequentName = "";
+                int count = 0;
+
+                mostFrequentName = jmenaStudentu[indexCounter];
+                int indexCounter2 = 0;
+                while (indexCounter2 < jmenaStudentu.Length)
+                {
+                    if (jmenaStudentu[indexCounter2] == mostFrequentName)
+                    {
+                        count++;
+                    }
+                    indexCounter2++;
+                }
+                indexCounter++;
+            }
+
+
+
             //cisla[0] = 1;
             //cisla[1] = 5;
 
             int currentIndex = 0;
+
+
 
             while (currentIndex < velikostPole)
             {
